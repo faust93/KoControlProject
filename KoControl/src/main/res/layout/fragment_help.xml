@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:padding="7dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CodeFont"
+            android:textSize="30dp"
+            android:textColor="#9AC7EA"
+            android:text="About"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CodeFont"
+        android:textColor="#FFFFFF"
+        android:text="@string/app_desc"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CodeFont"
+        android:textColor="#ff695d"
+        android:text=""
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CodeFont"
+        android:textSize="30dp"
+        android:textColor="#9AC7EA"
+        android:text="@string/how_to"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ModuleName"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="1dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CodeFont"
+        android:textColor="#FFFFFF"
+        android:maxLines="10"
+        android:textSize="14dp"
+        android:text="@string/app_help"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

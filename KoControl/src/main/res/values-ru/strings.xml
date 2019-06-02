@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KoControl</string>
+    <string name="help">Помощь</string>
+    <string name="modules">Модули</string>
+    <string name="set_on_boot">Активно при загрузке</string>
+    <string name="app_desc">Это приложение позволяет автоматически или вручную загружать выбранные модули ядра без помощи init.d. Внимание! Для работы необходим Root!</string>
+    <string name="how_to">Как использовать</string>
+    <string name="app_help">ModuleName - модуль ядра.\n\nЧекбокс - загружать модуль при старте системы.\n\nOn/Off переключатель - позволяет загрузить/выгрузить модуль вручную.</string>
+
+</resources>

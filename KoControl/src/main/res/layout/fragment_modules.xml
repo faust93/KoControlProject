@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/ui_modules_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kernel Modules Loader"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            style="@style/CodeFont"
+            android:textSize="30dp"
+            android:textColor="#9AC7EA" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ui_enabled_switch"
+            android:text="@string/set_on_boot" />
+
+        <View style="@style/Divider"
+            android:background="#9AC7EA"
+            android:layout_marginTop="8dp" />
+
+
+
+     </LinearLayout>
+
+
+</ScrollView>
